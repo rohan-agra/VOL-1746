@@ -16,8 +16,8 @@
 # Default overrides
 defaults:
   image_registry: ""
-  image_tag: "1"
-  image_org: "karthikd29/"
+  image_tag: '{{ .Chart.AppVersion }}'
+  image_org: "voltha/"
   image_pullPolicy: "Always"
 
 # Define connectivity to required services
